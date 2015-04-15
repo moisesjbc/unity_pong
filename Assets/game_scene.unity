@@ -96,6 +96,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 192889484}
   - 212: {fileID: 192889483}
+  - 61: {fileID: 192889485}
   m_Layer: 0
   m_Name: WallTop
   m_TagString: Untagged
@@ -141,6 +142,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!61 &192889485
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 192889482}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 50, y: 1}
 --- !u!1 &348597260
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,6 +302,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 753889573}
   - 212: {fileID: 753889572}
+  - 61: {fileID: 753889574}
   m_Layer: 0
   m_Name: WallLeft
   m_TagString: Untagged
@@ -333,6 +348,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!61 &753889574
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 753889571}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 32}
 --- !u!1 &1583772623
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,6 +370,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1583772625}
   - 212: {fileID: 1583772624}
+  - 61: {fileID: 1583772626}
   m_Layer: 0
   m_Name: WallBottom
   m_TagString: Untagged
@@ -387,6 +416,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!61 &1583772626
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1583772623}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 50, y: 1}
 --- !u!1 &1740017140
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,6 +438,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1740017142}
   - 212: {fileID: 1740017141}
+  - 61: {fileID: 1740017143}
   m_Layer: 0
   m_Name: WallRight
   m_TagString: Untagged
@@ -441,3 +484,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+--- !u!61 &1740017143
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1740017140}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 32}
